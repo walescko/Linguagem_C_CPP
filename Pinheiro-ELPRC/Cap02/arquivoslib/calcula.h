@@ -1,0 +1,1 @@
+extern void calcula_raizes(void);
