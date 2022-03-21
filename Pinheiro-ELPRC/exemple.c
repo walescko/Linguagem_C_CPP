@@ -1,4 +1,4 @@
 #include <stdio.h>
 int main (void){
-    print("exemplo\n);
+    printf("exemplo\n");
 }
