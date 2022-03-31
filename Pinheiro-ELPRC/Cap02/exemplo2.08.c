@@ -3,9 +3,9 @@
 int main (void) {
     int x, y;
     
-    printf("\nDigite o primeiro valor: ");
+    printf("Digite o primeiro valor: ");
     scanf("%d", &x);
-    printf("\nDigite o segundo valor: ");
+    printf("Digite o segundo valor: ");
     scanf("%d", &y);
     
     printf("\nSoma = %d", x + y);
