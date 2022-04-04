@@ -2,7 +2,7 @@
 #include <math.h>
 #define PI 3.1416;
 
-double radius;
+float radius;
 
 void printStart(void){
     printf("\nWadaJu Software Inc.\n");
@@ -14,24 +14,24 @@ void printEnd(void){
 
 void enterData(void){
     printf("Entre com o valor do raio do circulo: ");
-    scanf("%lf", &radius);
+    scanf("%f", &radius);
 }    
 
 void calculusPerimeter(void){
     
-    double perimeter;
-    perimeter = 2*PI*radius;
-    printf("\nPerimetro: %.2lf", perimeter);
+    float perimeter;
+    perimeter = 2*radius*PI 
+    printf("\nPerimetro: %.2f", perimeter);
 }
 void calculusArea(void){
     
-    double area;
-    area = 2*PI*pow(radius,2);
-    printf("\nArea: %.2lf", area);
+    float area;
+    area = pow(radius,2)*PI;
+    printf("\nArea: %.2f", area);
 }
 
 void exitData(void){
-    printf("O circulo de raio %.2lf e altura %.2lf tem:", radius); 
+    printf("O circulo de raio %.2f", radius); 
     calculusPerimeter();
     calculusArea();
 }
