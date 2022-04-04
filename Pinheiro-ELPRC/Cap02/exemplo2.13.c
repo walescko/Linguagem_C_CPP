@@ -20,6 +20,8 @@ int main(void){
     readdata();
     printdata();
     printf("\nFim do programa\nWadaJu Software\n");
+    
+    return 0;
 
 }
     

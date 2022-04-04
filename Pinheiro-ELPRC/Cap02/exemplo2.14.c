@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 
-void printstart(void){
+void printStart(void){
     printf("\nWadaJu Software Inc.\n");
 }
 
-void printend(void){
+void printEnd(void){
     printf("\nFim do Programa.\n");
 }
 
@@ -14,7 +14,7 @@ int main(void){
     double a, b, c;
     double delta, root01, root02;
     
-    printstart();
+    printStart();
     
     printf("\nDigite o coeficiente a: ");
     scanf("%lf", &a);
@@ -37,10 +37,9 @@ int main(void){
         printf("Sem raizes reais\n");
     }
 
-    printend();
+    printEnd();
     
     return 0;
-    
 }
     
     
