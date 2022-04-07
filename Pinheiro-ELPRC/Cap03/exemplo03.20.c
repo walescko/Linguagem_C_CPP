@@ -13,7 +13,7 @@ int main(void){
     int alinha_c = __alignof__(char);
     int alinha_i = __alignof__(int);
     int alinha_d = __alignof__(double);
-    printf("%d %d %d\n", alinha_c, alinha_i, alinha_d);
+    printf(" char: %d\n int: %d\n double: %d\n", alinha_c, alinha_i, alinha_d);
     printEnd();
     
     return 0;
