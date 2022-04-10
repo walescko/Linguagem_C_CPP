@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 void printStart(void){
     printf("\nWadaJu Software Inc.\n");
 }
