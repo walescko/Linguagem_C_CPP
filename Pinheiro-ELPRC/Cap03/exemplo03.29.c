@@ -9,13 +9,17 @@ void printEnd(void){
 }
 
 int main(void){
+    
+    int numberA = -896;
+    
+    signed char numberB;
+    
+    numberB = numberA;
+    
     printStart();
-    int alinha_c = __alignof__(char);
-    int alinha_i = __alignof__(int);
-    int alinha_d = __alignof__(double);
-    printf(" char: %d bytes\n int: %d bytes\n double: %d bytes ", alinha_c, alinha_i, alinha_d);
+    printf("Conversão de int para signed char\n");
+    printf("%d -> %hhd\n", numberA, numberB);
     printEnd();
     
     return 0;
-    
 }
