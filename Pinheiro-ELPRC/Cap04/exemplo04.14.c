@@ -12,5 +12,4 @@ int main(void){
     printEnd();
 
     return 0;
-
 }
