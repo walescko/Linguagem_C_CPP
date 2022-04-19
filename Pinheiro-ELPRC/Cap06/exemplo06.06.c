@@ -5,6 +5,7 @@
 int main(void){
 
     double a, b, c, d, e ,f ,g , h, i;
+
     a = DBL_MIN / DBL_MAX;
     b = 4 / 0.0;
     c = -DBL_MIN / 0.0;
