@@ -1,0 +1,107 @@
+cmake_minimum_required(VERSION 3.22)
+project(Pinheiro_ELPRC C)
+
+set(CMAKE_C_STANDARD 11)
+
+include_directories(Cap02/arquivoslib)
+include_directories(Cap03)
+include_directories(Cap04)
+include_directories(Cap05)
+include_directories(Cap06)
+
+add_executable(Pinheiro_ELPRC
+        Cap02/arquivoslib/calcula.c
+        Cap02/arquivoslib/calcula.h
+        Cap02/arquivoslib/ent_sai.c
+        Cap02/arquivoslib/ent_sai.h
+        Cap02/arquivoslib/eq_quad2.c
+        Cap02/baskara.c
+        Cap02/calcula.c
+        Cap02/ent_sai.c
+        Cap02/eq_quad2.c
+        Cap02/exemplo2.07.c
+        Cap02/exemplo2.08.c
+        Cap02/exemplo2.09.c
+        Cap02/exemplo2.10.c
+        Cap02/exemplo2.11.c
+        Cap02/exemplo2.12.c
+        Cap02/exemplo2.13.c
+        Cap02/exemplo2.14.c
+        Cap02/exemplo2.15Calculus.c
+        Cap02/exemplo2.15InOutData.c
+        Cap02/exemplo2.15MainProgram.c
+        Cap02/exercise02.12.c
+        Cap02/exercise02.13.c
+        Cap02/exercise02.15.c
+        Cap02/helloworld.c
+        Cap02/primeiro.c
+        Cap03/exemplo03.05.c
+        Cap03/exemplo03.07.c
+        Cap03/exemplo03.09.c
+        Cap03/exemplo03.20.c
+        Cap03/exemplo03.28.c
+        Cap03/exemplo03.29.c
+        Cap03/exemplo03.30.c
+        Cap03/exemplo03.31.c
+        Cap03/exemplo03.32.c
+        Cap03/exemplo03.33.c
+        Cap03/exemplo03.34.c
+        Cap03/exemplo03.35.c
+        Cap03/exemplo03.37.c
+        Cap03/exemplo03.38.c
+        Cap04/exemplo04.02.c
+        Cap04/exemplo04.08.c
+        Cap04/exemplo04.09.c
+        Cap04/exemplo04.10.c
+        Cap04/exemplo04.11.c
+        Cap04/exemplo04.12.c
+        Cap04/exemplo04.13.c
+        Cap04/exemplo04.14.c
+        Cap04/exemplo04.15.c
+        Cap04/exemplo04.21.c
+        Cap04/exemplo04.22.c
+        Cap04/exemplo04.23.c
+        Cap04/exemplo04.24.c
+        Cap04/exemplo04.25A.c
+        Cap04/exemplo04.25B.c
+        Cap04/exemplo04.25C.c
+        Cap04/exemplo04.26.c
+        Cap04/walescko.c
+        Cap04/walescko.h
+        Cap05/exemplo05.04.c
+        Cap05/exemplo05.05.c
+        Cap05/exemplo05.06.c
+        Cap05/exemplo05.19.c
+        Cap05/exemplo05.20.c
+        Cap05/exemplo05.21A.c
+        Cap05/exemplo05.21B.c
+        Cap05/exemplo05.21C.c
+        Cap05/exemplo05.22.c
+        Cap05/exemplo05.220.c
+        Cap05/exemplo05.23.c
+        Cap05/walescko.c
+        Cap05/walescko.h
+        Cap06/exemplo06.01.c
+        Cap06/exemplo06.02.c
+        Cap06/exemplo06.03.c
+        Cap06/exemplo06.04.c
+        Cap06/exemplo06.05.c
+        Cap06/exemplo06.06.c
+        Cap06/exemplo06.07.c
+        Cap06/exemplo06.08.c
+        Cap06/exemplo06.09.c
+        Cap06/exemplo06.10.c
+        Cap06/exemplo06.11.c
+        Cap06/exemplo06.12.c
+        Cap06/exemplo06.14.c
+        Cap06/exemplo06.16.c
+        Cap06/exemplo06.19.c
+        Cap06/exemplo06.21.c
+        Cap06/exemplo06.23.c
+        Cap06/exemplo06.24.c
+        Cap06/exemplo06.25.c
+        Cap06/exemplo06.27.c
+        Cap06/walescko.c
+        Cap06/walescko.h
+        exemple.c
+        teste.c)
