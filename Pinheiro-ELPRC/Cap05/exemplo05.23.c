@@ -10,7 +10,7 @@ int main(void){
         int p2;
     } reg;
 
-    scanf("%d\n"m &p2);
+    scanf("%d\n", &p2);
     p2: printf("exemplo %d\n", p2);
         if (p2 > 10){
             p2 = p2 -1;

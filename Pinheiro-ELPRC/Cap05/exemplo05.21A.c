@@ -6,9 +6,9 @@ int main(void){
 
     printf("%d\n", val);
 
-    float val = 40.0;
+   // float val = 40.0;
 
-    printf("%f\n"m val + aux);
+    printf("%f\n", val + aux);
     return 0;
 //esse programa não irá compilar
 

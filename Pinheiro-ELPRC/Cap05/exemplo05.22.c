@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "walescko.h"
 
-extern int valor;
+extern int valor = 2;
 int aux = 10;
-//nao rodou por falta de outro programa que chama a variaval valor
+
 int main(void){
     printStart();
     printf("%d\n", valor);
@@ -11,7 +11,7 @@ int main(void){
     printf("%d\n", valor);
 
     if (aux > 2){
-        extern int valor;
+        //extern int valor;
         printf("%d\n", valor);
     }
     printf("%d\n", valor);

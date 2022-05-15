@@ -8,7 +8,7 @@ int main(void){
 
     printStart();
     printf("%c %hhd\n", charA, charB);
-    printf("%c %d\n", charB, charB)
+    printf("%c %d\n", charB, charB);
     printEnd();
 
     return 0;

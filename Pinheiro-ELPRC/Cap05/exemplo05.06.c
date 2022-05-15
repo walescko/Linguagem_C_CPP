@@ -11,7 +11,7 @@ int main(void){
         float sal = 25.0;
         printf("%f\n", sal);
     }
-    printf("%d\n", sal)//ERROR - out of scope
+    //printf("%d\n", sal)//ERROR - out of scope
     printEnd();
 
     return 0;
