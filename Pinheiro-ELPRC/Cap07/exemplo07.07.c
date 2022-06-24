@@ -17,19 +17,19 @@ int main(void){
         } else {
             if (number01 > number03) {
                 printf("%d %d %d", number02, number03, number01);
+            } else {
+                printf("%d %d %d", number02, number01, number03);
             }
-        } else {
-            printf("%d %d %d", number02, number01, number03);
         }
     } else {
         if (number01 > number03) {
             printf("%d %d %d", number03, number01, number02);
         } else {
             if (number02 > number03) {
+                printf("%d %d %d", number01, number03, number02);
+            } else {
+                printf("%d %d %d", number01, number02, number03);
             }
-            printf("%d %d %d", number01, number03, number02);
-        } else {
-            printf("%d %d %d", number01, number02, number03);
         }
     }
     printf("\nFim\n");
