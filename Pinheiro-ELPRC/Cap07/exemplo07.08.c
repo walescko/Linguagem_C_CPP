@@ -9,7 +9,7 @@ int main(void){
     printf("\nDigite um valor inteiro: ");
     scanf("%d", &number);
 
-    switch (2+a) {
+    switch (2+number) {
         case 23:
             printf("primeiro\n");
         default:
