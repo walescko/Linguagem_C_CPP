@@ -4,14 +4,15 @@
 //
 int main(void){
     
-    int number;
+    int a;
 
     printf("\nDigite um número inteiro: ");
-    scanf("%d", &number);
+    scanf("%d", &a);
 
-    switch (2+number) {
+    switch (2+a) {
         int b = 0;
-        case 23: b=23;
+        case 23:
+            b=23;
             printf("primeiro apos %d\n", b);
         default:
         case 15:
