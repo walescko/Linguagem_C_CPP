@@ -10,7 +10,7 @@ int main(void){
     if(number > 30){
         printf("\%d maior que 30.\n", number);
     }
-    printf("%d menou ou igual a 30\n", number);
+    printf("%d menor ou igual a 30\n", number);
 
     return 0;
 }
