@@ -1,0 +1,17 @@
+Exercicio 7.8 - Faça um programa que leia dois números inteiros e imprima-os na ordem em que foram lidos,
+se o primeiro for maior ou igual ao segundo, ou na ordem inversa à que foram lidos, em caso contrário.
+
+Exercçicio 7.9 - Faça um programa que leia 3 números inteiros e imprima o literal "ordem crescente",
+se os números lidos estiverem em ordem crescente; ou "ordem descrescente", se estiverem em ordem
+descrescente; ou "fora de ordem", se estiverem fora de ordem. Considere os números em ordem crescente
+se o primeiro for menor ou igual ao segundo e o segundo for menor ou igual ao terceiro. A ordem
+descrente é caracterizada de modo semelhante. Se os três números forem iguais, eles devem ser considerados
+como estando em ordem crescente.
+
+Exercício 7.14 - Faça um programa que leia 2 números reais, preco e pagamento, e imprima  "falta X, se o preco for maior
+que o pagamento, onde X é igual a preco-pagamento; ou imprima "troco Y", se pagamento for maior que preco,
+onde Y é igual a pagamento-preco; ou imprima "valor correto" se preco for igual a pagamento.
+
+Exercício 7.19 e 7.20 - Faça um programa que leia três números inteiros e imprima "Forma PA, se os números
+lidos formam uma progressão aritimética, na ordem em que foram lidos, ou "não formam PA", em caso contrário.
+Elabore os programas usado if e swicth;
