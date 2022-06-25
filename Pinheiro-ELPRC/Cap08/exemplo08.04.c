@@ -4,12 +4,13 @@
 //
 int main(void){
 
-    int num = -1;
-    while ((num<=0) || (num>=230)){
+    int num = 0;
+    while ((num>=0) && (num<=230)){
         printf("Digite 0 < numero < 230: ");
         scanf("%d", &num);
+        printf("2 x %d = %d\n", num, num*2);
     }
-    printf("2 x %d = %d\n", num, num*2);
+
     printf("\nfim\n");
     return 0;
 }
