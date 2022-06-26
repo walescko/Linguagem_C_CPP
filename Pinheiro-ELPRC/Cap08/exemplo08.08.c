@@ -5,11 +5,14 @@
 int main(void){
 
     int soma = 0;
+    int quantidade; //quantide de números a somar
 
-    for (int i = 0; i<200; i++){
+    printf("Até que número deseja realizar a soma? ");
+    scanf("%d", &quantidade);
+    for (int i = 0; i<=quantidade; i++){
         soma += i;
     }
-    printf("Soma: %d\n", soma);
-       
+    printf("A soma dos primeiros números de 0 a %d é %d\n", quantidade, soma);
+
     return 0;
 }
