@@ -2,6 +2,9 @@
 //
 // Created by walescko on 01/07/22.
 //
+int obtem_num(int, int);
+int verifica_num(int, int, int);
+
 int obtem_num(int inf, int sup){
     int num;
     printf("Digite um número entre %d e %d: ", inf, sup);
