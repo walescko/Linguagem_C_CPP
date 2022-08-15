@@ -1,7 +1,7 @@
 #include <iostream>
-#include<conio.c>
+//#include <conio>
 int main(){ 
-	textcolor(1);
+	//textcolor(1);
 	std::cout <<"Eu"<< std::endl;
 	std::cout <<"vou"<<std::endl;
 	std::cout <<"aprender" << std::endl;

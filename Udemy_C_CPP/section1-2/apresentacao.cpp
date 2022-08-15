@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main(){ 
+int main(){
 	
 	std::cout <<"Tiago Walescko Chimendes"<< std::endl;
 	std::cout <<"Idade: 41 anos"<<std::endl;
